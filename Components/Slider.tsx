@@ -12,7 +12,7 @@ const data = [
     },
     {
       id: 2,
-      title: "we deliver your order wherever you are in NY",
+      title: "we deliver your order wherever you are in Lagos",
       image: "/slide2.png",
     },
     {
@@ -33,18 +33,18 @@ const Slider = () => {
         return () => clearInterval(interval)
     },[])
   return (
-    <div className='flex flex-col h-[calc(100vh-6rem)] md:h[calc(100vh-9rem)] md:flex-row '>
+    <div className='flex flex-col h-[calc(100vh-6rem)] md:h[calc(100vh-9rem)] lg:flex-row'>
         
         {/* TEXT CONTAINER */}
-        <div className='h-1/2 text-center items-center justify-center text-red-500 font-bold flex flex-col gap-8'>
-            <h1 className='uppercase text-5xl md:p-10  md:text-5xl xl:text-6xl'>{data[currentSlide].title}</h1>
-            <button className='border-2 px-2 py-2 bg-red-500 text-white'>Order Now</button>
+        <div className='h-1/2 items-center justify-center text-yellow-500 font-bold flex flex-col gap-8 lg:h-full lg:w-1/2'>
+            <h1 className='uppercase text-5xl md:p-10 p-4 md:text-6xl xl:text-7xl text-center'>{data[currentSlide].title}</h1>
+            <button className='border-2 p-4 bg-yellow-500 text-brown'>Order Now</button>
         </div>
 
         {/* IMAGE CONTAINER */}
 
-        <div className='h-1/2 relative'>
-           <Image src={data[currentSlide].image} alt='' fill={true} className='object-cover'  />
+        <div className='w-full h-1/2 relative lg:h-full lg:w-1/2'>
+           <Image src={data[currentSlide].image} alt='' fill className='object-cover'  />
         </div>
     </div>
   )

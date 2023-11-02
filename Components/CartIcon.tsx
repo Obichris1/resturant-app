@@ -9,7 +9,7 @@ const CartIcon = () => {
         <FaShoppingCart size ={20}/>
 
         </div>
-   <span>cart (3)</span>
+
     </Link>
 
   )

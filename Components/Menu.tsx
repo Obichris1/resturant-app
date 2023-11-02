@@ -26,7 +26,7 @@ const Menu = () => {
         {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
       </div>
 
-      {isOpen && <div className="bg-red-500 text-white flex flex-col absolute left-0 top-24 w-full h-[calc(100vh-6rem)] gap-8 justify-center items-center z-10" >
+      {isOpen && <div className="bg-yellow-500 text-brown flex flex-col absolute left-0 top-24 w-full h-[calc(100vh-6rem)] gap-8 justify-center items-center z-10" >
         {links.map((link) =>
         <Link href={link.url}  key={link.id} onClick={showMenu}>
             {link.title}
