@@ -20,6 +20,10 @@ const config: Config = {
 
       colors :{
         brown : '	#913831'
+      },
+      transitionDuration : {
+        '2000' :'2000ms'
+
       }
     },
   },
