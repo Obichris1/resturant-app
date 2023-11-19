@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import { featuredProducts } from "@/data";
+import p1 from '../public/temporary/p1.png';
+
 
 const Featured = () => {
   return (
@@ -13,7 +15,7 @@ const Featured = () => {
           <div key={item.id} className="w-screen h-[60vh] flex flex-col items-center justify-around p-4 hover:bg-fuchsia-50 transition-all md:w-[50vw] xl:w-[33vw] xl:h-[90vh]">
             {/* IMAGE CONTAINER */}
             {item.img && <div className="relative w-full flex-1 hover:rotate-[60deg]">
-              <Image src={item.img} alt="" fill  className="object-contain" />
+              <Image src={p1} alt="" fill  className="object-contain" />
             </div>}
 
             {/* TEXT CONTAINER */}
