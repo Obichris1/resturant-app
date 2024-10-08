@@ -6,7 +6,7 @@ import React from 'react'
 const SingleProduct = () => {
   return (
     
-    <div className='flex flex-col md:flex-row h-screen md:items-center gap-6 justify-around p-4 lg:px-20 xl:px-40 text-red-500 '>
+    <div className='flex flex-col md:flex-row h-screen md:items-center gap-6 justify-around p-4 lg:px-20 xl:px-40 text-brown '>
       {/* IMAGE CONTAINER */}
 
       <div className='relative h-1/2 w-full md:h-[70%] '>

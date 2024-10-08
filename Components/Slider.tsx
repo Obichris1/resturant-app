@@ -1,7 +1,9 @@
 'use client'
 import Image from 'next/image'
+import { join } from 'path';
 import React from 'react'
 import {useState, useEffect} from 'react'
+import Link from 'next/link';
 
 
 const data = [
@@ -36,9 +38,10 @@ const Slider = () => {
     <div className='flex flex-col h-[calc(100vh-6rem)] md:h[calc(100vh-9rem)] lg:flex-row'>
         
         {/* TEXT CONTAINER */}
-        <div className='h-1/2 items-center justify-center text-yellow-500 font-bold flex flex-col gap-8 lg:h-full lg:w-1/2'>
-            <h1 className='uppercase text-5xl md:p-10 p-4 md:text-6xl xl:text-7xl text-center'>{data[currentSlide].title}</h1>
-            <button className='border-2 p-4 bg-yellow-500 text-brown'>Order Now</button>
+        <div className='h-1/2 items-center justify-center text-[#913831]  flex flex-col gap-8 lg:h-full lg:w-1/2'>
+            <h1 className='uppercase text-3xl md:p-10 font-bold p-4 md:text-6xl xl:text-5xl text-center'>{data[currentSlide].title}</h1>
+            <Link href='#products'><button className="bg-yellow-500 px-2 py-2 md:px-8 md:py-4 text-brown rounded-md hover:scale-95" >Order Now</button></Link>
+            
         </div>
 
         {/* IMAGE CONTAINER */}

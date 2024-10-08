@@ -15,7 +15,7 @@
       id: 1,
       title: "Sicilian",
       desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
-      img: "/public/temporary/p1.png",
+      img: "/temporary/p1.png",
       price: 24.9,
       options: [
         {
@@ -74,7 +74,7 @@
         },
       ],
     },
-    {
+            {
       id: 4,
       title: "Spicy Arrabbiata",
       desc: "Ignite your taste buds with this fiery pasta creation, combining penne in a spicy tomato sauce infused with garlic, red chili flakes, and fresh basil for the ultimate comfort food experience.",

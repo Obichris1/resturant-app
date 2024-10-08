@@ -16,7 +16,7 @@ const MenuPage = () => {
           >
             <h1 className='uppercase font-bold text-3xl' style={{color : `${item.color}`}}>{item.title}</h1>
             <p className="text-sm my-8">{item.desc}</p>
-            <button className={`hidden 2xl:block bg-${item.color} rounded py-2 px-2 text-${item.color === "black" ? "white" : 'red-500'}`}>Explore</button>
+            <button className={`hidden 2xl:block bg-${item.color} rounded py-2 px-2 text-${item.color === "black" ? "white" : 'black'} hover:scale-95`}>Explore</button>
           </Link>
         ))}
       </div>
