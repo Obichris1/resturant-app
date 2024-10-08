@@ -4,23 +4,26 @@ import { join } from 'path';
 import React from 'react'
 import {useState, useEffect} from 'react'
 import Link from 'next/link';
+import slide1 from '../public/slide1.png'
+import slide2 from '../public/slide2.png'
+import slide3 from '../public/slide3.jpg'
 
 
 const data = [
     {
       id: 1,
       title: "always fresh & always crispy & always hot",
-      image: "/slide1.png",
+      image: slide1,
     },
     {
       id: 2,
       title: "we deliver your order wherever you are in Lagos",
-      image: "/slide2.png",
+      image: slide2,
     },
     {
       id: 3,
       title: "the best pizza to share with your family",
-      image: "/slide3.jpg",
+      image: slide3,
     },
   ];
 
