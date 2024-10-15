@@ -14,7 +14,7 @@ const Footer = () => {
        <div className="flex flex-col md:flex-row justify-between md:gap-12 gap-16">
       <div className="flex flex-col gap-4 md:gap-3 text-center text-sm md:text-lg">
         <p className="font-bold uppercase ">Deals</p>
-        <p className="cursor-pointer hover:text-yellow-500">Today's Deals</p>
+        <p className="cursor-pointer hover:text-yellow-500">Today`&apos;`s Deals</p>
         <p className="cursor-pointer hover:text-yellow-500">About Us</p>
         <p className="cursor-pointer hover:text-yellow-500">Delivery</p>
         <p className="cursor-pointer hover:text-yellow-500">Terms and Conditions</p>
