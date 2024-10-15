@@ -1,5 +1,5 @@
 import Price from "@/Components/Price";
-import { singleProduct } from "@/app/config/data";
+import { singleProduct } from "@/config/data";
 import Image from "next/image";
 import React from "react";
 
