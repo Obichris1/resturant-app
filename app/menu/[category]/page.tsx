@@ -1,5 +1,5 @@
 import React from "react";
-import { pizzas } from "@/app/config/data";
+import { pizzas } from "@/config/data";
 import Link from "next/link";
 import Image from "next/image";
 

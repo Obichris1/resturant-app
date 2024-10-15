@@ -1,5 +1,5 @@
 import React from "react";
-import { menu } from "@/app/config/data";
+import { menu } from "@/config/data";
 import Link from "next/link";
 
 const MenuPage = () => {
